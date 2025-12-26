@@ -1,0 +1,797 @@
+[
+  {
+    "problem_size": {
+      "n_particles": 2,
+      "layers": 3,
+      "matrix_size": 8,
+      "qubits_needed": 5
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 168,
+        "two_qubit_depth": 81,
+        "total_gates": 247,
+        "num_qubits": 5,
+        "single_qubit_gates": 161,
+        "two_qubit_gates": 82,
+        "gate_breakdown": {
+          "u": 161,
+          "cx": 82,
+          "measure": 4
+        }
+      },
+      "hardware_torino": {
+        "depth": 357,
+        "two_qubit_depth": 100,
+        "total_gates": 512,
+        "num_qubits": 133,
+        "single_qubit_gates": 412,
+        "two_qubit_gates": 100,
+        "gate_breakdown": {
+          "rz": 188,
+          "sx": 188,
+          "cz": 100,
+          "x": 32,
+          "measure": 4
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 116,
+        "two_qubit_depth": 80,
+        "total_gates": 151,
+        "num_qubits": 5,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 81,
+        "gate_breakdown": {
+          "OpType.TK1": 66,
+          "OpType.CX": 81,
+          "OpType.Measure": 4
+        },
+        "depth_reduction_percent": 30.952380952380953
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 2,
+      "layers": 5,
+      "matrix_size": 16,
+      "qubits_needed": 6
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 562,
+        "two_qubit_depth": 296,
+        "total_gates": 853,
+        "num_qubits": 6,
+        "single_qubit_gates": 550,
+        "two_qubit_gates": 298,
+        "gate_breakdown": {
+          "u": 550,
+          "cx": 298,
+          "measure": 5
+        }
+      },
+      "hardware_torino": {
+        "depth": 1760,
+        "two_qubit_depth": 619,
+        "total_gates": 2924,
+        "num_qubits": 133,
+        "single_qubit_gates": 2300,
+        "two_qubit_gates": 624,
+        "gate_breakdown": {
+          "sx": 1355,
+          "rz": 927,
+          "cz": 624,
+          "x": 13,
+          "measure": 5
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 400,
+        "two_qubit_depth": 293,
+        "total_gates": 593,
+        "num_qubits": 6,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 293,
+        "gate_breakdown": {
+          "OpType.TK1": 295,
+          "OpType.CX": 293,
+          "OpType.Measure": 5
+        },
+        "depth_reduction_percent": 28.825622775800714
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 4,
+      "layers": 3,
+      "matrix_size": 32,
+      "qubits_needed": 7
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 509,
+        "two_qubit_depth": 290,
+        "total_gates": 839,
+        "num_qubits": 7,
+        "single_qubit_gates": 511,
+        "two_qubit_gates": 322,
+        "gate_breakdown": {
+          "u": 511,
+          "cx": 322,
+          "measure": 6
+        }
+      },
+      "hardware_torino": {
+        "depth": 1321,
+        "two_qubit_depth": 567,
+        "total_gates": 2756,
+        "num_qubits": 133,
+        "single_qubit_gates": 2155,
+        "two_qubit_gates": 601,
+        "gate_breakdown": {
+          "sx": 1275,
+          "rz": 842,
+          "cz": 601,
+          "x": 32,
+          "measure": 6
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 435,
+        "two_qubit_depth": 263,
+        "total_gates": 638,
+        "num_qubits": 7,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 321,
+        "gate_breakdown": {
+          "OpType.TK1": 311,
+          "OpType.CX": 321,
+          "OpType.Measure": 6
+        },
+        "depth_reduction_percent": 14.538310412573674
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 4,
+      "layers": 5,
+      "matrix_size": 64,
+      "qubits_needed": 8
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 1899,
+        "two_qubit_depth": 1036,
+        "total_gates": 3273,
+        "num_qubits": 8,
+        "single_qubit_gates": 1904,
+        "two_qubit_gates": 1362,
+        "gate_breakdown": {
+          "u": 1904,
+          "cx": 1362,
+          "measure": 7
+        }
+      },
+      "hardware_torino": {
+        "depth": 10067,
+        "two_qubit_depth": 3993,
+        "total_gates": 19648,
+        "num_qubits": 133,
+        "single_qubit_gates": 15439,
+        "two_qubit_gates": 4209,
+        "gate_breakdown": {
+          "sx": 8897,
+          "rz": 6336,
+          "cz": 4209,
+          "x": 199,
+          "measure": 7
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 1553,
+        "two_qubit_depth": 1074,
+        "total_gates": 2729,
+        "num_qubits": 8,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 1349,
+        "gate_breakdown": {
+          "OpType.TK1": 1373,
+          "OpType.CX": 1349,
+          "OpType.Measure": 7
+        },
+        "depth_reduction_percent": 18.220115850447606
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 8,
+      "layers": 3,
+      "matrix_size": 128,
+      "qubits_needed": 9
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 2818,
+        "two_qubit_depth": 1282,
+        "total_gates": 3387,
+        "num_qubits": 9,
+        "single_qubit_gates": 2097,
+        "two_qubit_gates": 1282,
+        "gate_breakdown": {
+          "u": 2097,
+          "cx": 1282,
+          "measure": 8
+        }
+      },
+      "hardware_torino": {
+        "depth": 8471,
+        "two_qubit_depth": 2607,
+        "total_gates": 11869,
+        "num_qubits": 133,
+        "single_qubit_gates": 9171,
+        "two_qubit_gates": 2698,
+        "gate_breakdown": {
+          "sx": 5467,
+          "rz": 3513,
+          "cz": 2698,
+          "x": 183,
+          "measure": 8
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 2458,
+        "two_qubit_depth": 1280,
+        "total_gates": 2547,
+        "num_qubits": 9,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 1281,
+        "gate_breakdown": {
+          "OpType.TK1": 1258,
+          "OpType.CX": 1281,
+          "OpType.Measure": 8
+        },
+        "depth_reduction_percent": 12.7750177430802
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 8,
+      "layers": 5,
+      "matrix_size": 256,
+      "qubits_needed": 10
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 9461,
+        "two_qubit_depth": 4903,
+        "total_gates": 13725,
+        "num_qubits": 10,
+        "single_qubit_gates": 8690,
+        "two_qubit_gates": 5026,
+        "gate_breakdown": {
+          "u": 8690,
+          "cx": 5026,
+          "measure": 9
+        }
+      },
+      "hardware_torino": {
+        "depth": 28673,
+        "two_qubit_depth": 8538,
+        "total_gates": 40927,
+        "num_qubits": 133,
+        "single_qubit_gates": 32021,
+        "two_qubit_gates": 8906,
+        "gate_breakdown": {
+          "sx": 19054,
+          "rz": 12729,
+          "cz": 8906,
+          "x": 229,
+          "measure": 9
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 8068,
+        "two_qubit_depth": 4692,
+        "total_gates": 10027,
+        "num_qubits": 10,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 4997,
+        "gate_breakdown": {
+          "OpType.TK1": 5021,
+          "OpType.CX": 4997,
+          "OpType.Measure": 9
+        },
+        "depth_reduction_percent": 14.723602156220272
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 16,
+      "layers": 3,
+      "matrix_size": 512,
+      "qubits_needed": 11
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 7859,
+        "two_qubit_depth": 3778,
+        "total_gates": 10463,
+        "num_qubits": 11,
+        "single_qubit_gates": 6611,
+        "two_qubit_gates": 3842,
+        "gate_breakdown": {
+          "u": 6611,
+          "cx": 3842,
+          "measure": 10
+        }
+      },
+      "hardware_torino": {
+        "depth": 21666,
+        "two_qubit_depth": 6466,
+        "total_gates": 33148,
+        "num_qubits": 133,
+        "single_qubit_gates": 26579,
+        "two_qubit_gates": 6569,
+        "gate_breakdown": {
+          "sx": 15214,
+          "rz": 11151,
+          "cz": 6569,
+          "x": 204,
+          "measure": 10
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 6663,
+        "two_qubit_depth": 3712,
+        "total_gates": 7709,
+        "num_qubits": 11,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 3841,
+        "gate_breakdown": {
+          "OpType.TK1": 3858,
+          "OpType.CX": 3841,
+          "OpType.Measure": 10
+        },
+        "depth_reduction_percent": 15.21822114772872
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 16,
+      "layers": 5,
+      "matrix_size": 1024,
+      "qubits_needed": 12
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 26597,
+        "two_qubit_depth": 12864,
+        "total_gates": 35297,
+        "num_qubits": 12,
+        "single_qubit_gates": 22164,
+        "two_qubit_gates": 13122,
+        "gate_breakdown": {
+          "u": 22164,
+          "cx": 13122,
+          "measure": 11
+        }
+      },
+      "hardware_torino": {
+        "depth": 76660,
+        "two_qubit_depth": 24221,
+        "total_gates": 110834,
+        "num_qubits": 133,
+        "single_qubit_gates": 85414,
+        "two_qubit_gates": 25420,
+        "gate_breakdown": {
+          "sx": 53046,
+          "rz": 31514,
+          "cz": 25420,
+          "x": 843,
+          "measure": 11
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 22276,
+        "two_qubit_depth": 12468,
+        "total_gates": 26159,
+        "num_qubits": 12,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 13061,
+        "gate_breakdown": {
+          "OpType.TK1": 13087,
+          "OpType.CX": 13061,
+          "OpType.Measure": 11
+        },
+        "depth_reduction_percent": 16.24619317968192
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 32,
+      "layers": 3,
+      "matrix_size": 2048,
+      "qubits_needed": 13
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 20835,
+        "two_qubit_depth": 9602,
+        "total_gates": 26147,
+        "num_qubits": 13,
+        "single_qubit_gates": 16405,
+        "two_qubit_gates": 9730,
+        "gate_breakdown": {
+          "u": 16405,
+          "cx": 9730,
+          "measure": 12
+        }
+      },
+      "hardware_torino": {
+        "depth": 57085,
+        "two_qubit_depth": 16045,
+        "total_gates": 84804,
+        "num_qubits": 133,
+        "single_qubit_gates": 68602,
+        "two_qubit_gates": 16202,
+        "gate_breakdown": {
+          "sx": 38605,
+          "rz": 29577,
+          "cz": 16202,
+          "x": 408,
+          "measure": 12
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 17415,
+        "two_qubit_depth": 9472,
+        "total_gates": 19489,
+        "num_qubits": 13,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 9729,
+        "gate_breakdown": {
+          "OpType.TK1": 9748,
+          "OpType.CX": 9729,
+          "OpType.Measure": 12
+        },
+        "depth_reduction_percent": 16.414686825053995
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 32,
+      "layers": 5,
+      "matrix_size": 4096,
+      "qubits_needed": 14
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 68549,
+        "two_qubit_depth": 31856,
+        "total_gates": 86309,
+        "num_qubits": 14,
+        "single_qubit_gates": 53910,
+        "two_qubit_gates": 32386,
+        "gate_breakdown": {
+          "u": 53910,
+          "cx": 32386,
+          "measure": 13
+        }
+      },
+      "hardware_torino": {
+        "depth": 181104,
+        "two_qubit_depth": 55242,
+        "total_gates": 277134,
+        "num_qubits": 133,
+        "single_qubit_gates": 219496,
+        "two_qubit_gates": 57638,
+        "gate_breakdown": {
+          "sx": 130429,
+          "rz": 87286,
+          "cz": 57638,
+          "x": 1768,
+          "measure": 13
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 56836,
+        "two_qubit_depth": 31092,
+        "total_gates": 64563,
+        "num_qubits": 14,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 32261,
+        "gate_breakdown": {
+          "OpType.TK1": 32289,
+          "OpType.CX": 32261,
+          "OpType.Measure": 13
+        },
+        "depth_reduction_percent": 17.08704722169543
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 64,
+      "layers": 3,
+      "matrix_size": 8192,
+      "qubits_needed": 15
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 51907,
+        "two_qubit_depth": 23298,
+        "total_gates": 62759,
+        "num_qubits": 15,
+        "single_qubit_gates": 39191,
+        "two_qubit_gates": 23554,
+        "gate_breakdown": {
+          "u": 39191,
+          "cx": 23554,
+          "measure": 14
+        }
+      },
+      "hardware_torino": {
+        "depth": 137664,
+        "two_qubit_depth": 40618,
+        "total_gates": 197656,
+        "num_qubits": 133,
+        "single_qubit_gates": 155728,
+        "two_qubit_gates": 41928,
+        "gate_breakdown": {
+          "sx": 89822,
+          "rz": 63313,
+          "cz": 41928,
+          "x": 2579,
+          "measure": 14
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 43015,
+        "two_qubit_depth": 23040,
+        "total_gates": 47141,
+        "num_qubits": 15,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 23553,
+        "gate_breakdown": {
+          "OpType.TK1": 23574,
+          "OpType.CX": 23553,
+          "OpType.Measure": 14
+        },
+        "depth_reduction_percent": 17.13063748627353
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 64,
+      "layers": 5,
+      "matrix_size": 16384,
+      "qubits_needed": 16
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 167813,
+        "two_qubit_depth": 75984,
+        "total_gates": 204073,
+        "num_qubits": 16,
+        "single_qubit_gates": 127000,
+        "two_qubit_gates": 77058,
+        "gate_breakdown": {
+          "u": 127000,
+          "cx": 77058,
+          "measure": 15
+        }
+      },
+      "hardware_torino": {
+        "depth": 444126,
+        "two_qubit_depth": 132918,
+        "total_gates": 693242,
+        "num_qubits": 133,
+        "single_qubit_gates": 553966,
+        "two_qubit_gates": 139276,
+        "gate_breakdown": {
+          "sx": 321174,
+          "rz": 229865,
+          "cz": 139276,
+          "x": 2912,
+          "measure": 15
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 138244,
+        "two_qubit_depth": 74484,
+        "total_gates": 153655,
+        "num_qubits": 16,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 76805,
+        "gate_breakdown": {
+          "OpType.TK1": 76835,
+          "OpType.CX": 76805,
+          "OpType.Measure": 15
+        },
+        "depth_reduction_percent": 17.620208207945748
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 128,
+      "layers": 3,
+      "matrix_size": 32768,
+      "qubits_needed": 17
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 125285,
+        "two_qubit_depth": 55238,
+        "total_gates": 147651,
+        "num_qubits": 17,
+        "single_qubit_gates": 91873,
+        "two_qubit_gates": 55762,
+        "gate_breakdown": {
+          "u": 91873,
+          "cx": 55762,
+          "measure": 16
+        }
+      },
+      "hardware_torino": {
+        "depth": 323589,
+        "two_qubit_depth": 90884,
+        "total_gates": 465728,
+        "num_qubits": 133,
+        "single_qubit_gates": 371510,
+        "two_qubit_gates": 94218,
+        "gate_breakdown": {
+          "sx": 212296,
+          "rz": 154991,
+          "cz": 94218,
+          "x": 4207,
+          "measure": 16
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 103226,
+        "two_qubit_depth": 54722,
+        "total_gates": 111537,
+        "num_qubits": 17,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 55761,
+        "gate_breakdown": {
+          "OpType.TK1": 55760,
+          "OpType.CX": 55761,
+          "OpType.Measure": 16
+        },
+        "depth_reduction_percent": 17.607055912519456
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 128,
+      "layers": 5,
+      "matrix_size": 65536,
+      "qubits_needed": 18
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 403351,
+        "two_qubit_depth": 179400,
+        "total_gates": 478641,
+        "num_qubits": 18,
+        "single_qubit_gates": 297026,
+        "two_qubit_gates": 181598,
+        "gate_breakdown": {
+          "u": 297026,
+          "cx": 181598,
+          "measure": 17
+        }
+      },
+      "hardware_torino": {
+        "depth": 1063670,
+        "two_qubit_depth": 340941,
+        "total_gates": 1643131,
+        "num_qubits": 133,
+        "single_qubit_gates": 1285366,
+        "two_qubit_gates": 357765,
+        "gate_breakdown": {
+          "sx": 776158,
+          "rz": 497088,
+          "cz": 357765,
+          "x": 12103,
+          "measure": 17
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 330830,
+        "two_qubit_depth": 176386,
+        "total_gates": 362133,
+        "num_qubits": 18,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 181101,
+        "gate_breakdown": {
+          "OpType.TK1": 181015,
+          "OpType.CX": 181101,
+          "OpType.Measure": 17
+        },
+        "depth_reduction_percent": 17.97962568581707
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 256,
+      "layers": 3,
+      "matrix_size": 131072,
+      "qubits_needed": 19
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 298669,
+        "two_qubit_depth": 130050,
+        "total_gates": 345599,
+        "num_qubits": 19,
+        "single_qubit_gates": 214403,
+        "two_qubit_gates": 131178,
+        "gate_breakdown": {
+          "u": 214403,
+          "cx": 131178,
+          "measure": 18
+        }
+      },
+      "hardware_torino": {
+        "depth": 796796,
+        "two_qubit_depth": 220188,
+        "total_gates": 1158726,
+        "num_qubits": 133,
+        "single_qubit_gates": 933211,
+        "two_qubit_gates": 225515,
+        "gate_breakdown": {
+          "sx": 528644,
+          "rz": 398940,
+          "cz": 225515,
+          "x": 5609,
+          "measure": 18
+        },
+        "backend": "ibm_torino"
+      },
+      "tket": {
+        "depth": 245073,
+        "two_qubit_depth": 129010,
+        "total_gates": 262202,
+        "num_qubits": 19,
+        "single_qubit_gates": 0,
+        "two_qubit_gates": 131167,
+        "gate_breakdown": {
+          "OpType.TK1": 131017,
+          "OpType.CX": 131167,
+          "OpType.Measure": 18
+        },
+        "depth_reduction_percent": 17.944949090799515
+      }
+    }
+  }
+]
