@@ -105,12 +105,38 @@ The analysis in `plotting_notebooks/plot_fidelity_results.ipynb` computes:
 - **Signal Separation Index**: Track vs noise distinguishability
 - **Success Probability**: Performance across problem sizes (2-1024 particles)
 
+### Simulation Toy: segment_analysis.ipynb
+
+The notebook `segment_analysis.ipynb` is responsible for the toy model analysis. It generates segment-level efficiency plots showing the Hamiltonian-based segment pairing performance.
+
+#### Full Data Generation
+
+To regenerate all data with full statistics run all cells in `plotting_notebooks/segment_analysis.ipynb`.
+
+#### Configuration Parameters
+
+| Parameter | Default Value | Description |
+|-----------|---------------|-------------|
+| `FIXED_EPSILON` | 0.002 (2 mrad) | Segment angle threshold |
+| `FIXED_RESOLUTION` | 0.005 (5 µm) | Measurement resolution |
+| `FIXED_SCATTERING` | 0.0001 (0.1 mrad) | Multiple scattering |
+| `TRACKS_PER_EVENT` | 20 | Particles per event |
+| `EVENT_COUNTS` | [1, 2, ..., 10] | Events per configuration (20-200 tracks) |
+| `N_REPEATS` | 100 | Statistical repeats per configuration |
+
+#### Output Files
+
+- `fixed_epsilon_segment_efficiency.png` (300 DPI raster)
+- `fixed_epsilon_segment_efficiency.pdf` (600 DPI vector)
+- `runs_fixed_epsilon/fixed_epsilon_angle_data_v3.pkl` (cached data)
+
 ### Individual Figures
 
 | Figure | Description | How to Reproduce |
 |--------|-------------|------------------|
 | Fig. 1 | Event display | `example.ipynb`, Cell 6 |
 | Fig. 2 | Circuit diagram | `example.ipynb`, Cell 13 |
+| Fig. 2 | Circuit depth | `plotting_notebooks/segment_analysis.ipynb` |
 | Fig. 4 | Circuit depth | `plotting_notebooks/plotting_complexity.ipynb` |
 | Fig. 5 | Success probability | `plotting_notebooks/plot_fidelity_results.ipynb` |
 
