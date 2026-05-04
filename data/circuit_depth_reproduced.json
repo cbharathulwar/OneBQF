@@ -1,0 +1,686 @@
+[
+  {
+    "problem_size": {
+      "n_particles": 2,
+      "layers": 3,
+      "matrix_size": 8,
+      "qubits_needed": 5
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 168,
+        "total_gates": 244,
+        "single_qubit_gates": 159,
+        "two_qubit_gates": 81,
+        "num_qubits": 5,
+        "gate_breakdown": {
+          "u": 159,
+          "cx": 81,
+          "measure": 4
+        }
+      },
+      "hardware_torino": {
+        "depth": 362,
+        "total_gates": 537,
+        "single_qubit_gates": 423,
+        "two_qubit_gates": 110,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 210,
+          "rz": 180,
+          "cz": 110,
+          "x": 33,
+          "measure": 4
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 116,
+        "two_qubit_gates": 81,
+        "total_gates": 150,
+        "gate_breakdown": {
+          "OpType.TK1": 65,
+          "OpType.CX": 81,
+          "OpType.Measure": 4
+        },
+        "depth_reduction_percent": 30.95
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 2,
+      "layers": 5,
+      "matrix_size": 16,
+      "qubits_needed": 6
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 562,
+        "total_gates": 850,
+        "single_qubit_gates": 548,
+        "two_qubit_gates": 297,
+        "num_qubits": 6,
+        "gate_breakdown": {
+          "u3": 324,
+          "cx": 297,
+          "u": 224,
+          "measure": 5
+        }
+      },
+      "hardware_torino": {
+        "depth": 1536,
+        "total_gates": 2808,
+        "single_qubit_gates": 2169,
+        "two_qubit_gates": 634,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 1336,
+          "rz": 758,
+          "cz": 634,
+          "x": 75,
+          "measure": 5
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 400,
+        "two_qubit_gates": 293,
+        "total_gates": 592,
+        "gate_breakdown": {
+          "OpType.TK1": 294,
+          "OpType.CX": 293,
+          "OpType.Measure": 5
+        },
+        "depth_reduction_percent": 28.83
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 4,
+      "layers": 3,
+      "matrix_size": 32,
+      "qubits_needed": 7
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 507,
+        "total_gates": 836,
+        "single_qubit_gates": 509,
+        "two_qubit_gates": 321,
+        "num_qubits": 7,
+        "gate_breakdown": {
+          "u": 365,
+          "cx": 321,
+          "u3": 144,
+          "measure": 6
+        }
+      },
+      "hardware_torino": {
+        "depth": 1380,
+        "total_gates": 3147,
+        "single_qubit_gates": 2311,
+        "two_qubit_gates": 830,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 1666,
+          "cz": 830,
+          "rz": 600,
+          "x": 45,
+          "measure": 6
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 439,
+        "two_qubit_gates": 321,
+        "total_gates": 637,
+        "gate_breakdown": {
+          "OpType.TK1": 310,
+          "OpType.CX": 321,
+          "OpType.Measure": 6
+        },
+        "depth_reduction_percent": 13.41
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 4,
+      "layers": 5,
+      "matrix_size": 64,
+      "qubits_needed": 8
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 1899,
+        "total_gates": 3270,
+        "single_qubit_gates": 1902,
+        "two_qubit_gates": 1361,
+        "num_qubits": 8,
+        "gate_breakdown": {
+          "u": 1902,
+          "cx": 1361,
+          "measure": 7
+        }
+      },
+      "hardware_torino": {
+        "depth": 6173,
+        "total_gates": 10482,
+        "single_qubit_gates": 7662,
+        "two_qubit_gates": 2813,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 5596,
+          "cz": 2813,
+          "rz": 1970,
+          "x": 96,
+          "measure": 7
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 1529,
+        "two_qubit_gates": 1061,
+        "total_gates": 2107,
+        "gate_breakdown": {
+          "OpType.TK1": 1039,
+          "OpType.CX": 1061,
+          "OpType.Measure": 7
+        },
+        "depth_reduction_percent": 19.48
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 8,
+      "layers": 3,
+      "matrix_size": 128,
+      "qubits_needed": 9
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 2706,
+        "total_gates": 3384,
+        "single_qubit_gates": 2095,
+        "two_qubit_gates": 1281,
+        "num_qubits": 9,
+        "gate_breakdown": {
+          "u": 1807,
+          "cx": 1281,
+          "u3": 288,
+          "measure": 8
+        }
+      },
+      "hardware_torino": {
+        "depth": 7421,
+        "total_gates": 10903,
+        "single_qubit_gates": 8220,
+        "two_qubit_gates": 2675,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 5438,
+          "cz": 2675,
+          "rz": 2611,
+          "x": 171,
+          "measure": 8
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 2381,
+        "two_qubit_gates": 1281,
+        "total_gates": 2532,
+        "gate_breakdown": {
+          "OpType.TK1": 1243,
+          "OpType.CX": 1281,
+          "OpType.Measure": 8
+        },
+        "depth_reduction_percent": 12.01
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 8,
+      "layers": 5,
+      "matrix_size": 256,
+      "qubits_needed": 10
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 10085,
+        "total_gates": 13722,
+        "single_qubit_gates": 8688,
+        "two_qubit_gates": 5025,
+        "num_qubits": 10,
+        "gate_breakdown": {
+          "u": 6096,
+          "cx": 5025,
+          "u3": 2592,
+          "measure": 9
+        }
+      },
+      "hardware_torino": {
+        "depth": 25211,
+        "total_gates": 41514,
+        "single_qubit_gates": 32280,
+        "two_qubit_gates": 9225,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 20050,
+          "rz": 11676,
+          "cz": 9225,
+          "x": 554,
+          "measure": 9
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 8596,
+        "two_qubit_gates": 4997,
+        "total_gates": 10082,
+        "gate_breakdown": {
+          "OpType.TK1": 5076,
+          "OpType.CX": 4997,
+          "OpType.Measure": 9
+        },
+        "depth_reduction_percent": 14.76
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 16,
+      "layers": 3,
+      "matrix_size": 512,
+      "qubits_needed": 11
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 8275,
+        "total_gates": 10460,
+        "single_qubit_gates": 6609,
+        "two_qubit_gates": 3841,
+        "num_qubits": 11,
+        "gate_breakdown": {
+          "u": 4881,
+          "cx": 3841,
+          "u3": 1728,
+          "measure": 10
+        }
+      },
+      "hardware_torino": {
+        "depth": 22803,
+        "total_gates": 35230,
+        "single_qubit_gates": 27361,
+        "two_qubit_gates": 7859,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 17048,
+          "rz": 9791,
+          "cz": 7859,
+          "x": 522,
+          "measure": 10
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 6986,
+        "two_qubit_gates": 3841,
+        "total_gates": 7744,
+        "gate_breakdown": {
+          "OpType.TK1": 3893,
+          "OpType.CX": 3841,
+          "OpType.Measure": 10
+        },
+        "depth_reduction_percent": 15.58
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 16,
+      "layers": 5,
+      "matrix_size": 1024,
+      "qubits_needed": 12
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 27845,
+        "total_gates": 35294,
+        "single_qubit_gates": 22162,
+        "two_qubit_gates": 13121,
+        "num_qubits": 12,
+        "gate_breakdown": {
+          "u": 16978,
+          "cx": 13121,
+          "u3": 5184,
+          "measure": 11
+        }
+      },
+      "hardware_torino": {
+        "depth": 70275,
+        "total_gates": 106957,
+        "single_qubit_gates": 81729,
+        "two_qubit_gates": 25217,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 52374,
+          "rz": 27730,
+          "cz": 25217,
+          "x": 1625,
+          "measure": 11
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 23332,
+        "two_qubit_gates": 13061,
+        "total_gates": 26262,
+        "gate_breakdown": {
+          "OpType.TK1": 13190,
+          "OpType.CX": 13061,
+          "OpType.Measure": 11
+        },
+        "depth_reduction_percent": 16.21
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 32,
+      "layers": 3,
+      "matrix_size": 2048,
+      "qubits_needed": 13
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 21667,
+        "total_gates": 26144,
+        "single_qubit_gates": 16403,
+        "two_qubit_gates": 9729,
+        "num_qubits": 13,
+        "gate_breakdown": {
+          "u": 12947,
+          "cx": 9729,
+          "u3": 3456,
+          "measure": 12
+        }
+      },
+      "hardware_torino": {
+        "depth": 54378,
+        "total_gates": 81498,
+        "single_qubit_gates": 63475,
+        "two_qubit_gates": 18011,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 39215,
+          "rz": 23348,
+          "cz": 18011,
+          "x": 912,
+          "measure": 12
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 18058,
+        "two_qubit_gates": 9729,
+        "total_gates": 19556,
+        "gate_breakdown": {
+          "OpType.TK1": 9815,
+          "OpType.CX": 9729,
+          "OpType.Measure": 12
+        },
+        "depth_reduction_percent": 16.66
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 32,
+      "layers": 5,
+      "matrix_size": 4096,
+      "qubits_needed": 14
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 71045,
+        "total_gates": 86306,
+        "single_qubit_gates": 53908,
+        "two_qubit_gates": 32385,
+        "num_qubits": 14,
+        "gate_breakdown": {
+          "u": 43540,
+          "cx": 32385,
+          "u3": 10368,
+          "measure": 13
+        }
+      },
+      "hardware_torino": {
+        "depth": 183712,
+        "total_gates": 275980,
+        "single_qubit_gates": 214169,
+        "two_qubit_gates": 61798,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 133114,
+          "rz": 78204,
+          "cz": 61798,
+          "x": 2851,
+          "measure": 13
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 58948,
+        "two_qubit_gates": 32261,
+        "total_gates": 64762,
+        "gate_breakdown": {
+          "OpType.TK1": 32488,
+          "OpType.CX": 32261,
+          "OpType.Measure": 13
+        },
+        "depth_reduction_percent": 17.03
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 64,
+      "layers": 3,
+      "matrix_size": 8192,
+      "qubits_needed": 15
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 53571,
+        "total_gates": 62756,
+        "single_qubit_gates": 39189,
+        "two_qubit_gates": 23553,
+        "num_qubits": 15,
+        "gate_breakdown": {
+          "u": 32277,
+          "cx": 23553,
+          "u3": 6912,
+          "measure": 14
+        }
+      },
+      "hardware_torino": {
+        "depth": 130055,
+        "total_gates": 204884,
+        "single_qubit_gates": 157926,
+        "two_qubit_gates": 46944,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 101721,
+          "rz": 53997,
+          "cz": 46944,
+          "x": 2208,
+          "measure": 14
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 44298,
+        "two_qubit_gates": 23553,
+        "total_gates": 47272,
+        "gate_breakdown": {
+          "OpType.TK1": 23705,
+          "OpType.CX": 23553,
+          "OpType.Measure": 14
+        },
+        "depth_reduction_percent": 17.31
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 64,
+      "layers": 5,
+      "matrix_size": 16384,
+      "qubits_needed": 16
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 172805,
+        "total_gates": 204070,
+        "single_qubit_gates": 126998,
+        "two_qubit_gates": 77057,
+        "num_qubits": 16,
+        "gate_breakdown": {
+          "u": 106262,
+          "cx": 77057,
+          "u3": 20736,
+          "measure": 15
+        }
+      },
+      "hardware_torino": {
+        "depth": 422487,
+        "total_gates": 668918,
+        "single_qubit_gates": 522681,
+        "two_qubit_gates": 146222,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 316450,
+          "rz": 201567,
+          "cz": 146222,
+          "x": 4664,
+          "measure": 15
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 142468,
+        "two_qubit_gates": 76805,
+        "total_gates": 154046,
+        "gate_breakdown": {
+          "OpType.TK1": 77226,
+          "OpType.CX": 76805,
+          "OpType.Measure": 15
+        },
+        "depth_reduction_percent": 17.56
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 128,
+      "layers": 3,
+      "matrix_size": 32768,
+      "qubits_needed": 17
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 128621,
+        "total_gates": 147632,
+        "single_qubit_gates": 91867,
+        "two_qubit_gates": 55749,
+        "num_qubits": 17,
+        "gate_breakdown": {
+          "u": 77935,
+          "cx": 55749,
+          "u3": 13932,
+          "measure": 16
+        }
+      },
+      "hardware_torino": {
+        "depth": 303959,
+        "total_gates": 446188,
+        "single_qubit_gates": 347949,
+        "two_qubit_gates": 98223,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 215054,
+          "rz": 128763,
+          "cz": 98223,
+          "x": 4132,
+          "measure": 16
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 105796,
+        "two_qubit_gates": 55749,
+        "total_gates": 111784,
+        "gate_breakdown": {
+          "OpType.TK1": 56019,
+          "OpType.CX": 55749,
+          "OpType.Measure": 16
+        },
+        "depth_reduction_percent": 17.75
+      }
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 128,
+      "layers": 5,
+      "matrix_size": 65536,
+      "qubits_needed": 18
+    },
+    "standard": {
+      "qiskit": {
+        "depth": 407045,
+        "total_gates": 471082,
+        "single_qubit_gates": 292376,
+        "two_qubit_gates": 178689,
+        "num_qubits": 18,
+        "gate_breakdown": {
+          "u": 250904,
+          "cx": 178689,
+          "u3": 41472,
+          "measure": 17
+        }
+      },
+      "hardware_torino": {
+        "depth": 986011,
+        "total_gates": 1558130,
+        "single_qubit_gates": 1229060,
+        "two_qubit_gates": 329053,
+        "num_qubits": 133,
+        "gate_breakdown": {
+          "sx": 729344,
+          "rz": 491072,
+          "cz": 329053,
+          "x": 8644,
+          "measure": 17
+        },
+        "backend": "fake_torino"
+      },
+      "tket": {
+        "depth": 334084,
+        "two_qubit_gates": 178181,
+        "total_gates": 357186,
+        "gate_breakdown": {
+          "OpType.TK1": 178988,
+          "OpType.CX": 178181,
+          "OpType.Measure": 17
+        },
+        "depth_reduction_percent": 17.92
+      }
+    }
+  }
+]

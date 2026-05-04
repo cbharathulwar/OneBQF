@@ -1,0 +1,268 @@
+[
+  {
+    "problem_size": {
+      "n_particles": 2,
+      "layers": 3,
+      "matrix_size": 8,
+      "qubits_needed": 5
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.124464,
+        0.12497,
+        0.125474
+      ],
+      "mean_success_rate": 0.12496933333333334,
+      "std_success_rate": 0.0004123310428392311
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 2,
+      "layers": 5,
+      "matrix_size": 16,
+      "qubits_needed": 6
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.202117,
+        0.202912,
+        0.203194
+      ],
+      "mean_success_rate": 0.20274099999999998,
+      "std_success_rate": 0.0004560065788999198
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 4,
+      "layers": 3,
+      "matrix_size": 32,
+      "qubits_needed": 7
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.061984,
+        0.062469,
+        0.062867
+      ],
+      "mean_success_rate": 0.062439999999999996,
+      "std_success_rate": 0.00036106601427809455
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 4,
+      "layers": 5,
+      "matrix_size": 64,
+      "qubits_needed": 8
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.100916,
+        0.101427,
+        0.101833
+      ],
+      "mean_success_rate": 0.101392,
+      "std_success_rate": 0.00037518084528220114
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 8,
+      "layers": 3,
+      "matrix_size": 128,
+      "qubits_needed": 9
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.031311,
+        0.031146,
+        0.031433
+      ],
+      "mean_success_rate": 0.03129666666666667,
+      "std_success_rate": 0.00011760479959971491
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 8,
+      "layers": 5,
+      "matrix_size": 256,
+      "qubits_needed": 10
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.050423,
+        0.050719,
+        0.051113
+      ],
+      "mean_success_rate": 0.05075166666666667,
+      "std_success_rate": 0.00028263679087400264
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 16,
+      "layers": 3,
+      "matrix_size": 512,
+      "qubits_needed": 11
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.015619,
+        0.015672,
+        0.015699
+      ],
+      "mean_success_rate": 0.015663333333333335,
+      "std_success_rate": 3.32298393348849e-05
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 16,
+      "layers": 5,
+      "matrix_size": 1024,
+      "qubits_needed": 12
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.025445,
+        0.025377,
+        0.025565
+      ],
+      "mean_success_rate": 0.025462333333333333,
+      "std_success_rate": 7.772315542287864e-05
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 32,
+      "layers": 3,
+      "matrix_size": 2048,
+      "qubits_needed": 13
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.007854,
+        0.007803,
+        0.007952
+      ],
+      "mean_success_rate": 0.007869666666666667,
+      "std_success_rate": 6.182951470688517e-05
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 32,
+      "layers": 5,
+      "matrix_size": 4096,
+      "qubits_needed": 14
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.012679,
+        0.012702,
+        0.012797
+      ],
+      "mean_success_rate": 0.012726000000000001,
+      "std_success_rate": 5.107510809255974e-05
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 64,
+      "layers": 3,
+      "matrix_size": 8192,
+      "qubits_needed": 15
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.003918,
+        0.003848,
+        0.004005
+      ],
+      "mean_success_rate": 0.0039236666666666664,
+      "std_success_rate": 6.422010761609033e-05
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 64,
+      "layers": 5,
+      "matrix_size": 16384,
+      "qubits_needed": 16
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.006417,
+        0.006319,
+        0.006455
+      ],
+      "mean_success_rate": 0.006397,
+      "std_success_rate": 5.729456053297433e-05
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 128,
+      "layers": 3,
+      "matrix_size": 32768,
+      "qubits_needed": 17
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.001997,
+        0.001902,
+        0.001961
+      ],
+      "mean_success_rate": 0.0019533333333333334,
+      "std_success_rate": 3.9160637833870333e-05
+    }
+  },
+  {
+    "problem_size": {
+      "n_particles": 128,
+      "layers": 5,
+      "matrix_size": 65536,
+      "qubits_needed": 18
+    },
+    "measurement_stats": {
+      "total_shots": 1000000,
+      "n_runs": 3,
+      "success_rates": [
+        0.003185,
+        0.003105,
+        0.003242
+      ],
+      "mean_success_rate": 0.0031773333333333337,
+      "std_success_rate": 5.6192130726246295e-05
+    }
+  }
+]
